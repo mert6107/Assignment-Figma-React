@@ -1,0 +1,95 @@
+.listWrapper{
+    display:flex;
+    justify-content: center;
+}
+.leftList{
+    margin-top:73px;
+    margin-left: -5%;
+}
+.searchResult:hover{
+    background-color: rgba(79, 117, 194, 0.21);
+    border-radius: 8px;
+}
+.resultWrapp{
+    display:flex;
+    justify-content: space-between;
+    margin-left:60px;
+}
+.resultTitlee{
+   padding-top: 10px;
+   display: grid;
+   font-weight: 400;
+   font-size: 16px;
+}
+.resultSubb{
+    font-size:14px;
+    font-weight: 400;
+    color: #72777a;
+}
+.personalInfo{
+    margin-top:10px;
+    margin-right: 10px;
+}
+.rightList{
+    margin-top: 38px;
+}
+.name{
+    display: grid;
+    color:#484848;
+    font-size:16px;
+    font-weight: 400;
+}
+.date{
+    color:#484848;
+    font-size:16px;
+    font-weight: 500;
+    float:right;
+}
+.hrList{
+    color:#7E7E7E;
+    width: 703px;
+    margin-left:4%;
+}
+.pagWrapper{
+    margin-top: 51px;
+}
+.orderButton{
+    background-repeat: no-repeat;
+    color:#414141;
+    background-color:#F3F2F2;
+    width: 127px;
+    height: 30px;
+    border-radius: 8px;
+    border:1px solid #414141;
+    font-size: 18px;
+    font-weight: 500;
+    background-position: 2px;
+    margin-left:50px;
+}
+.sortArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 156px;
+    height: 136px;
+    margin-left:30px;
+    margin-top:16px;
+}
+.sortButton{
+    width: 138px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: white;
+    border:none;
+}
+.sortButton:hover{
+    background-color: #B3B3B3;
+    color: white;
+    border-radius: 8px;
+    width: 138px;
+    height: 30;
+}

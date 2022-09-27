@@ -1,0 +1,65 @@
+.addForm{
+    margin-left:15%;
+    margin-top:60px;
+    display: block;
+    width: 600px;
+}
+.label{
+    margin-top:37px;
+    font-size:18px;
+    font-weight: 700;
+    color:#686868;
+}
+.label input{
+    padding-left:17px;
+    font-weight: 500;
+    font-size:18px;
+    border:1px solid #484848;
+    border-radius: 12px;
+    width: 590px;
+    height: 46px;
+}
+.label input::placeholder{
+    font-weight: 500;
+    font-size:18px;
+    color:rgba(100, 100, 100, 0.5)
+}
+.addButtonn{
+    float:right;
+    width: 138px;
+    height: 46px;
+    background-color: #4F75C2;
+    color: white;
+    border-radius: 12px;
+    border:none;
+    margin-top:70px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.addButtonn:disabled{
+    background-color: #686868;
+}
+.toast-not{
+    width: 375px;
+    height: 123px;
+    border-radius: 8px !important;
+    background: #C4C4C4 !important;
+    color: white !important;
+}
+.Toastify__toast-body{
+    margin-right: 7px !important;
+}
+.ant-form-item-explain-error{
+    background-color: #C4C4C4;
+    width: 375px;
+    height: 50px;
+    border-radius: 8px;
+    color: #090A0A;
+    font-size:18px;
+    font-weight: 400;
+    position: absolute;
+    right: 80px;
+    top: 50px;
+    text-align: center;
+    padding: 65px 0px;
+}

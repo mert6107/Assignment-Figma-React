@@ -1,0 +1,28 @@
+.bigWrapper{
+    margin-left:2%;
+    display: flex;
+    margin-top: 27px;
+}
+.linkLogo img{
+    width: 150px;
+    height: 63px;
+}
+.returnButton{
+   color:#484848;
+   font-size: 24px;
+   font-weight: 700;
+   background-color: white;
+   border:none;
+   background-repeat: no-repeat;
+   background-position-y: 3px;
+   margin-left:30px;
+   padding-left: 30px;
+}
+.returnList{
+    display: flex;
+    align-items: center;
+}
+.returnButton a{
+    text-decoration: none;
+    color:#484848;
+}
