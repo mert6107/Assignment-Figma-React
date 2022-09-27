@@ -18,7 +18,7 @@ function Search() {
         </div>
         <div className='searchArea'>
             <input  style={{ backgroundImage: `url(${searchIcon})`,backgroundPosition:15}} className='searchBox' type="text" onChange={e =>setQuery(e.target.value)}/>
-            <button className='searchButton'><Link to='/search' state={query}>Search</Link></button>
+            <button className='searchButton'><Link to={`/search/query=${query}`} state={query}>Search</Link></button>
         </div>
         {query !== "" ?
         <div className='searchResults'>
