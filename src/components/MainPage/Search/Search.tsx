@@ -47,7 +47,7 @@ function Search() {
           </div>
             
             <div className='showMore'>
-              <Link className='showMoreButton' to='/search' state={query} >Show more...</Link>
+              <Link className='showMoreButton' to={`/search/query=${query}`} state={query} >Show more...</Link>
             </div>  
         </div>
         : ""}
